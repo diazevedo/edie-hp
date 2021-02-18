@@ -1,14 +1,25 @@
 :root {
-  --font-primary: "Montserrat", sans-serif;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Heebo", sans-serif;
 
-  --black-1: #181719;
-  --gray-1: #828282;
-  --gray-2: #a9a9a9;
-  --white-1: #fff;
+  /** colors */
+  --gray-1: #333333;
+  --gray-2: #4f4f4f;
+  --gray-3: #828282;
+  --gray-4: #f2f2f2;
+  --gray-5: #e0e0e0;
+  --gray-6: #bdbdbd;
+  --blue-1: #2d9cdb;
+  --blue-2: #100e1d;
+  --red-1: #eb5757;
+  --white-1: #ffffff;
+
+  /** text sizes */
 
   --text-xs: 1rem;
   --text-sm: 1.2rem;
-  --text-md: 1.4rem;
+  --text-smx: 1.4rem;
+  --text-md: 1.6rem;
   --text-lg: 1.8rem;
   --text-lgx: 2.4rem;
 
@@ -20,12 +31,12 @@
 
   --space-xs: 1.2rem;
   --space-sm: 2rem;
-  --space-mds: 3.2rem;
-  --space-md: 4.2rem;
+  --space-xmd: 3.2rem;
+  --space-md: 4rem;
   --space-lg: 4.8rem;
   --space-lgx: 7.7rem;
   --space-lxx: 8.6rem;
 
   --min-width: 37.5rem;
-  --max-width: 128.5rem;
+  --max-width: 114rem;
 }
