@@ -10,12 +10,6 @@
 
     <link rel="icon" href="./src/assets/images/devchallenges.png" />
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
@@ -28,7 +22,218 @@
       rel="stylesheet"
     />
 
-    <title>Eddie</title>
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+
+    <title>Edie</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header menu">
+      <h1 class="logo"><a href="#">Edie</a></h1>
+
+      <input
+        type="checkbox"
+        name="menu__mobile-handler"
+        id="menu__mobile-handler"
+      />
+
+      <label for="menu__mobile-handler" class="menu__mobile-label"
+        >Open menu <span class="menu_mobile-icon"></span
+      ></label>
+
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Home</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Services</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Our works</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Clients</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="introduction">
+        <p class="text">Unhappy with your website?</p>
+        <h2 class="title-two">We create beautiful and fast web services</h2>
+        <img
+          src="./src/assets/images/heroImage.jpg"
+          alt="people in a spring planning"
+        />
+        <h3>Story, emotion and purpose</h3>
+        <p>
+          We help transform your ideas into real world applications that will
+          outperform your toughest competition and help you achieve your
+          strategic goals in short period of time.
+        </p>
+
+        <form action="">
+          <fieldset>
+            <legend>Want us to contact you?</legend>
+            <input
+              type="email"
+              name="email"
+              id="email-input"
+              placeholder="Email"
+            />
+            <button type="submit">Join</button>
+          </fieldset>
+        </form>
+      </section>
+      <section class="services">
+        <h2>We offer high demand services</h2>
+
+        <ul>
+          <li>
+            <article class="service">
+              <h3>UI/UX Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet id quis turpis.
+              </p>
+              <a href="#">Get started</a>
+            </article>
+          </li>
+
+          <li>
+            <article class="service">
+              <h3>Front End</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet id quis turpis.
+              </p>
+              <a href="#">Get started</a>
+            </article>
+          </li>
+
+          <li>
+            <article class="service">
+              <h3>Back End</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet id quis turpis.
+              </p>
+              <a href="#">Get started</a>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="designs">
+        <h2>Good design means good business</h2>
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="./src/assets/images/smarthome.jpg"
+                alt="image of an app to control gadgets"
+              />
+              <figcaption>Full stack application</figcaption>
+              <h4>Smart home dashboard</h4>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./src/assets/images/onboard.png" alt="" />
+              <figcaption>UX/UI design</figcaption>
+              <h4>Onboard application</h4>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./src/assets/images/booking.png" alt="" />
+              <figcaption>Mobile application</figcaption>
+              <h4>Booking system</h4>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./src/assets/images/juice-product.png" alt="" />
+              <figcaption>Front End application</figcaption>
+              <h4>Juice product homepage</h4>
+            </figure>
+          </li>
+        </ul>
+      </section>
+
+      <section class="team">
+        <h2>We are chilled and a laidback team</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <ul>
+          <li><img src="./src/assets/images/person3.png" alt="" /></li>
+          <li><img src="./src/assets/images/person1.png" alt="" /></li>
+          <li><img src="./src/assets/images/person2.png" alt="" /></li>
+        </ul>
+
+        <figure>
+          <blockquote cite="person-quoted">
+            “Fast and outstanding resutls. Edie understands their customer’s
+            needs. They have a young and talented team.”
+          </blockquote>
+          <img
+            id="person-quoted"
+            src="./src/assets/images/person4.png"
+            alt="Carlos Tran"
+          />
+          <figcaption>Carlos Tran</figcaption>
+          <p>The Decorate Gatsby</p>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Home</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Services</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Our works</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Clients</a>
+        </li>
+        <li class="menu__list-item">
+          <a class="menu__list-item__link" href="#">Contact</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li><a href="#">Edie</a></li>
+        <li><a href="#">instagram</a></li>
+        <li><a href="#">linkedin</a></li>
+        <li><a href="#">twitter</a></li>
+      </ul>
+
+      <form action="">
+        <fieldset>
+          <legend>Want us to contact you?</legend>
+          <input
+            type="email"
+            name="email"
+            id="email-input"
+            placeholder="Email"
+          />
+          <button type="submit">Join</button>
+        </fieldset>
+      </form>
+
+      <div>
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          >@DiAzevedo</a
+        >
+        <a href="http://" target="_blank" rel="noopener noreferrer"
+          >@devChallenges.io</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
