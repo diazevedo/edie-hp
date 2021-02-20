@@ -27,36 +27,38 @@
     <title>Edie</title>
   </head>
   <body>
-    <header class="header menu">
+    <header class="header">
       <h1 class="logo"><a href="#">Edie</a></h1>
+      <nav class="menu">
+        <input
+          class="menu__mobile-handler"
+          type="checkbox"
+          name="menu__mobile-handler"
+          id="menu__mobile-handler"
+        />
 
-      <input
-        type="checkbox"
-        name="menu__mobile-handler"
-        id="menu__mobile-handler"
-      />
+        <label for="menu__mobile-handler" class="menu__mobile-label"
+          >Open menu <span class="menu__mobile-icon"></span
+        ></label>
 
-      <label for="menu__mobile-handler" class="menu__mobile-label"
-        >Open menu <span class="menu_mobile-icon"></span
-      ></label>
-
-      <ul class="menu__list">
-        <li class="menu__list-item">
-          <a class="menu__list-item__link" href="#">Home</a>
-        </li>
-        <li class="menu__list-item">
-          <a class="menu__list-item__link" href="#">Services</a>
-        </li>
-        <li class="menu__list-item">
-          <a class="menu__list-item__link" href="#">Our works</a>
-        </li>
-        <li class="menu__list-item">
-          <a class="menu__list-item__link" href="#">Clients</a>
-        </li>
-        <li class="menu__list-item">
-          <a class="menu__list-item__link" href="#">Contact</a>
-        </li>
-      </ul>
+        <ul class="menu__list-item">
+          <li class="menu__list-item">
+            <a class="menu__list-item__link" href="#">Home</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-item__link" href="#">Services</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-item__link" href="#">Our works</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-item__link" href="#">Clients</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-item__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="introduction">

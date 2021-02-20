@@ -1,0 +1,58 @@
+.menu {
+  display: flex;
+}
+
+.menu .menu__mobile-handler {
+  position: absolute;
+  left: -9999px;
+}
+
+.menu__mobile-handler:checked ~ .menu__mobile-label .menu__mobile-icon {
+  background-color: transparent;
+}
+
+.menu__mobile-handler:checked ~ .menu__mobile-label .menu__mobile-icon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.menu__mobile-handler:checked ~ .menu__mobile-label .menu__mobile-icon:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.menu__mobile-label {
+  text-indent: -9999px;
+  z-index: 2;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu__mobile-icon {
+  display: block;
+  background-color: #000;
+  width: 1.8rem;
+  height: 0.2rem;
+
+  position: relative;
+}
+
+.menu__mobile-icon:before,
+.menu__mobile-icon:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  background-color: #000;
+  top: 250%;
+}
+
+.menu__mobile-icon:after {
+  top: -250%;
+}
