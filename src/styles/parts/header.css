@@ -1,1 +1,11 @@
 @import "../components/menu.css";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.header .logo {
+  z-index: 4;
+}
