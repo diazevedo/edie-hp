@@ -9,12 +9,9 @@
 }
 
 .menu__mobile-handler:checked ~ .menu__list {
-  right: 0;
-  background-color: antiquewhite;
-
-  height: 110vh;
-
+  height: 105vh;
   top: -2rem;
+  right: 0;
 }
 
 .menu__mobile-handler:checked ~ .menu__mobile-label .menu__mobile-icon {
@@ -71,6 +68,8 @@
 .menu__list {
   width: 100%;
 
+  background-color: rgba(243, 243, 235, 1);
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -78,4 +77,9 @@
 
   position: absolute;
   right: -9999px;
+}
+
+.menu__list-item > * {
+  color: #000;
+  font-size: var(--text-lg);
 }
