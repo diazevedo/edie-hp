@@ -1,11 +1,22 @@
-@import "../components/menu.css";
+@import "../components/logo.css";
+@import "./../components/menu.css";
 
 .header {
+  width: 100%;
+
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
   padding-top: 2rem;
 }
 
 .header .logo {
   z-index: 4;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-top: var(--space-lg);
+  }
 }

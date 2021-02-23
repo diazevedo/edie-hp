@@ -1,3 +1,4 @@
+/* nav tag*/
 .menu {
   display: flex;
   justify-content: space-between;
@@ -9,6 +10,7 @@
 }
 
 .menu__mobile-handler:checked ~ .menu__list {
+  background-color: rgba(243, 243, 235, 1);
   height: 105vh;
   top: -2rem;
   right: 0;
@@ -58,6 +60,8 @@
 
   background-color: #000;
   top: 250%;
+
+  transition: all 0.3s ease-in-out;
 }
 
 .menu__mobile-icon:after {
@@ -68,7 +72,7 @@
 .menu__list {
   width: 100%;
 
-  background-color: rgba(243, 243, 235, 1);
+  padding-top: 4rem;
 
   display: flex;
   flex-direction: column;
@@ -76,10 +80,50 @@
   align-items: center;
 
   position: absolute;
-  right: -9999px;
+  top: -9999px;
+
+  transition: all 0.3s ease-in-out;
 }
 
 .menu__list-item > * {
   color: #000;
   font-size: var(--text-lg);
+}
+
+@media (min-width: 768px) {
+  .menu__mobile-handler,
+  .menu__mobile-label {
+    display: none;
+  }
+
+  .menu {
+    height: 100%;
+  }
+
+  .menu__list {
+    height: 100%;
+    position: initial;
+    flex-direction: row;
+
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .menu__list-item {
+    margin-left: 3rem;
+  }
+
+  .menu__list-item:first-child {
+    margin: 0;
+  }
+
+  .menu__list-item > * {
+    font-size: var(--title-md);
+  }
+}
+
+@media (min-width: 990px) {
+  .menu__list-item {
+    margin-left: 6rem;
+  }
 }
