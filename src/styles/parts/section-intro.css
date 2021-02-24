@@ -1,0 +1,46 @@
+.introduction {
+  width: 100%;
+  margin-top: 5.5rem;
+}
+
+.introduction .inner-content {
+  max-width: 60rem;
+}
+
+.text {
+  color: var(--gray-2);
+  font-weight: 400;
+}
+
+.highlight {
+  font-size: var(--text-sm);
+  color: var(--blue-1);
+  display: block;
+}
+
+.introduction .highlight {
+  margin-bottom: 0.5rem;
+}
+
+.hero-image {
+  border-radius: var(--image-hero-radius);
+  object-fit: contain;
+}
+
+.introduction .hero-image {
+  margin: var(--space-xs) 0 var(--space-sm);
+}
+
+@media (min-width: 768px) {
+  .highlight {
+    font-size: var(--text-lg);
+  }
+
+  .introduction .highlight {
+    margin-bottom: 1.5rem;
+  }
+
+  .introduction .hero-image {
+    margin: var(--space-md) 0;
+  }
+}

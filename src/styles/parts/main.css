@@ -1,0 +1,9 @@
+@import "../components/titles.css";
+@import "../parts/section-intro.css";
+
+@import "../parts/section-contact.css";
+
+.inner-content {
+  width: 90%;
+  padding-left: 3rem;
+}

@@ -1,0 +1,11 @@
+.title-two {
+  font-size: var(--title-md);
+  line-height: 3.6rem;
+}
+
+@media (min-width: 768px) {
+  .title-two {
+    font-size: var(--title-lgx);
+    line-height: 7.2rem;
+  }
+}

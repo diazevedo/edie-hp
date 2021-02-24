@@ -29,7 +29,7 @@
   --title-lg: 3.6rem;
   --title-lgx: 4.8rem;
 
-  --space-xs: 1.2rem;
+  --space-xs: 1.5rem;
   --space-sm: 2rem;
   --space-xmd: 3.2rem;
   --space-md: 4rem;
@@ -39,4 +39,6 @@
 
   --min-width: 37.5rem;
   --max-width: 114rem;
+
+  --image-hero-radius: 18px;
 }

@@ -1,0 +1,80 @@
+.contact .inner-content {
+  max-width: 40rem;
+}
+
+.text-small {
+  line-height: 1.8rem;
+  font-size: var(--text-sm);
+}
+
+.contact .inner-content > .text {
+  margin: 2rem 0 3rem;
+}
+
+.contact .legend {
+  color: var(--gray-3);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.form__elements-wrapper {
+  height: 4.8rem;
+  width: 100%;
+
+  background-color: var(--gray-4);
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+  padding-left: 1.9rem;
+  justify-content: space-between;
+}
+
+.form__elements-wrapper > * {
+  font-weight: 500;
+  font-size: var(--text-smx);
+}
+
+.input {
+  height: 100%;
+  background-color: transparent;
+  border: none;
+
+  flex: 1;
+}
+
+.input::placeholder {
+  color: var(--gray-6);
+}
+
+.form__elements-wrapper button {
+  background-color: var(--blue-1);
+  border: none;
+  height: 100%;
+  border-radius: 12px;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  color: var(--white-1);
+}
+
+@media (min-width: 768px) {
+  .text-small {
+    line-height: 2.7rem;
+    font-size: var(--text-lg);
+  }
+
+  .contact .inner-content > .text {
+    margin: 3rem 0 5rem;
+  }
+
+  .contact .legend {
+    font-size: var(--text-smx);
+    margin-bottom: 1rem;
+  }
+
+  .form__elements-wrapper > * {
+    font-size: var(--text-lg);
+  }
+}
