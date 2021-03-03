@@ -1,0 +1,24 @@
+@import "../components/service-card.css";
+
+.services .inner-content {
+  width: 100%;
+  padding-left: 0rem;
+  margin-top: 10rem;
+}
+
+/** it goes to the service card component*/
+.services .inner-content .title-two {
+  padding-left: 3rem;
+  padding-right: 6rem;
+}
+
+.services ul {
+  margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  .services ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}

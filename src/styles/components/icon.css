@@ -1,0 +1,30 @@
+.icon {
+  display: block;
+
+  width: 6.7rem;
+  height: 6.7rem;
+
+  padding: 2rem 1.5rem;
+  border-radius: 1.6rem;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3.5rem;
+
+  text-indent: -9999px;
+}
+
+.icon.create {
+  background-color: #2d9cdb;
+  background-image: url(../../assets/images/create-white-18dp.svg);
+}
+
+.icon.code {
+  background-color: #27ae60;
+  background-image: url(../../assets/images/code-white-18dp.svg);
+}
+
+.icon.stack {
+  background-color: #eb5757;
+  background-image: url(../../assets/images/storage-white-18dp.svg);
+}

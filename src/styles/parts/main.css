@@ -1,7 +1,10 @@
 @import "../components/titles.css";
+@import "../components/button.css";
+@import "../components/icon.css";
 @import "../parts/section-intro.css";
 
 @import "../parts/section-contact.css";
+@import "../parts/services.css";
 
 .inner-content {
   width: 90%;
