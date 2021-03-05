@@ -1,0 +1,40 @@
+.card-design {
+  width: 100%;
+}
+
+.design-image {
+  height: 35rem;
+  border-radius: var(--image-design-radius);
+  object-fit: cover;
+  width: 100%;
+}
+
+.caption {
+  color: var(--gray-3);
+  font-size: var(--text-sm);
+  font-weight: 300;
+  margin: 1.2rem 0 1rem;
+}
+
+.design-title {
+  font-weight: 500;
+  font-size: var(--title-sm);
+  color: var(--gray-1);
+
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .design-image {
+    height: 54.5rem;
+  }
+
+  .caption {
+    font-size: var(--text-smx);
+  }
+
+  .design-title {
+    margin-bottom: 0;
+    font-size: var(--title-md);
+  }
+}

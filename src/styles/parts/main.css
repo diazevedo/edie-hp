@@ -1,10 +1,13 @@
 @import "../components/titles.css";
 @import "../components/button.css";
 @import "../components/icon.css";
-@import "../parts/section-intro.css";
+@import "../components/card-design.css";
+@import "../components/link-with-icon.css";
 
+@import "../parts/section-intro.css";
 @import "../parts/section-contact.css";
 @import "../parts/services.css";
+@import "../parts/section-designs.css";
 
 .inner-content {
   width: 90%;

@@ -1,0 +1,54 @@
+.designs {
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+.designs .inner-content {
+  padding: 4rem 0;
+}
+
+.designs ul {
+  max-width: 111rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .designs {
+    text-align: right;
+  }
+
+  .designs .inner-content {
+    padding-bottom: 0;
+    margin-bottom: 0rem;
+    text-align: left;
+  }
+
+  .designs .title-two {
+    font-size: var(--title-lg);
+    line-height: 54px;
+    max-width: 45rem;
+  }
+
+  .designs .mansory {
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .designs .mansory li {
+    flex: 1;
+    max-width: 54.5rem;
+  }
+
+  .designs .mansory {
+    display: flex;
+  }
+
+  .designs li:first-child {
+    margin-top: 175px;
+    margin-right: 2rem;
+  }
+
+  .mansory:not(:first-of-type) li:last-child {
+    margin-top: -15px;
+  }
+}
