@@ -3,13 +3,11 @@
   margin-top: 5.5rem;
 }
 
-.introduction .inner-content {
-  max-width: 60rem;
-}
-
+/* goes to util.css */
 .text {
   color: var(--gray-2);
   font-weight: 400;
+  line-height: 2.4rem;
 }
 
 .highlight {
@@ -32,6 +30,14 @@
 }
 
 @media (min-width: 768px) {
+  .introduction {
+    margin-top: 12rem;
+  }
+
+  .introduction .inner-content {
+    max-width: 88rem;
+  }
+
   .highlight {
     font-size: var(--text-lg);
   }
@@ -43,4 +49,11 @@
   .introduction .hero-image {
     margin: var(--space-md) 0;
   }
+}
+
+@media (min-width: 1440px) {
+  /* .introduction .inner-content {
+    max-width: 80rem;
+    padding-left: 22.8rem;
+  } */
 }

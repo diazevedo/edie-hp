@@ -1,5 +1,11 @@
-.designs .inner-content {
-  padding: 4rem 0;
+.designs {
+  max-width: 111rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.designs .title-two {
+  margin: 10rem 0 5rem;
 }
 
 .designs ul {
@@ -9,21 +15,14 @@
 
 @media (min-width: 768px) {
   .designs {
-    text-align: right;
-    padding-left: 3rem;
-    padding-right: 2rem;
-  }
-
-  .designs .inner-content {
-    padding-bottom: 0;
-    margin-bottom: 0rem;
-    text-align: left;
+    margin-top: 16rem;
   }
 
   .designs .title-two {
     font-size: var(--title-lg);
     line-height: 54px;
-    max-width: 45rem;
+    max-width: 50rem;
+    margin-bottom: 0;
   }
 
   .designs .mansory {
@@ -47,5 +46,10 @@
 
   .mansory:not(:first-of-type) li:last-child {
     margin-top: -15px;
+  }
+
+  .designs .link-with-icon {
+    display: block;
+    text-align: right;
   }
 }

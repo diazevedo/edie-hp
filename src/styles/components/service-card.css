@@ -1,8 +1,7 @@
 .service {
   width: 100%;
   cursor: pointer;
-
-  padding: 5rem 3.4rem 4.3rem;
+  padding: 5rem 2.5rem 4.3rem 4.5rem;
 
   margin-bottom: 3.5rem;
   border-radius: 24px;
@@ -11,12 +10,11 @@
 .service .card-title {
   font-size: var(--title-md);
   font-weight: 700;
-  margin: 3rem 0;
+  margin: 4rem 0 3.5rem;
 }
 
 .service .text {
   font-size: var(--text-md);
-  line-height: 2.4rem;
   margin-bottom: 3rem;
 }
 
@@ -38,6 +36,6 @@
 
 @media (min-width: 768px) {
   .service {
-    max-width: 34rem;
+    max-width: 34.5rem;
   }
 }

@@ -8,8 +8,29 @@
 @import "../parts/section-contact.css";
 @import "../parts/services.css";
 @import "../parts/section-designs.css";
+@import "../parts/section-team.css";
 
-.inner-content {
-  width: 90%;
-  padding-left: 3rem;
+.left-small,
+.left-big,
+.left-medium {
+  padding-left: 3.5rem;
+  padding-right: 1rem;
+}
+
+.left-medium {
+  padding-left: 4.5rem;
+}
+
+@media (min-width: 768px) {
+  .left-small {
+    padding-left: 16.5rem;
+  }
+
+  .left-medium {
+    padding-left: 12rem;
+  }
+
+  .left-big {
+    padding-left: 22.5rem;
+  }
 }
