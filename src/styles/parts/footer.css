@@ -1,3 +1,129 @@
 footer {
   clear: both;
+  background-color: var(--blue-2);
+  margin-top: 10rem;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+
+  padding: 3.5rem 2.5rem 2.5rem 4rem;
+}
+
+footer * {
+  color: var(--white-1);
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  max-width: 112rem;
+  margin: 0 auto;
+}
+
+.menu__list-footer .menu__list-footer-item {
+  margin-left: 0;
+}
+
+.menu__list-footer .menu__list-footer-item .menu__list-footer-item__link {
+  color: var(--white-1);
+  font-size: 1.8rem;
+  line-height: 36px;
+}
+
+footer .logo {
+  color: var(--white-1);
+  font-size: 3.6rem;
+}
+
+footer .logo {
+  color: var(--white-1);
+  font-size: 3.6rem;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem 0;
+
+  width: 9rem;
+}
+
+.social-links li:not(:first-child) a {
+  display: block;
+  text-indent: -9999px;
+
+  width: 2.4rem;
+  height: 2.4rem;
+
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+}
+
+.social-links li:not(:first-child) .instagram {
+  background-image: url(../../assets/images/instagram.svg);
+}
+
+.social-links li:not(:first-child) .linkedin {
+  background-image: url(../../assets/images/linkedin.svg);
+}
+
+.social-links li:not(:first-child) .twitter {
+  background-image: url(../../assets/images/twitter.svg);
+}
+
+footer form {
+  max-width: 40rem;
+}
+
+footer fieldset legend {
+  font-size: 1rem;
+  color: var(--gray-3);
+
+  margin-bottom: 1rem;
+}
+
+.developer-links {
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.developer-links a:first-child {
+  margin-right: 2rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding-top: 4.5rem;
+  }
+
+  footer > div {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .social-links,
+  .social-links li:not(:first-child) a {
+    margin-top: 0;
+  }
+
+  .social-links {
+    height: min-content;
+  }
+
+  .social-links li:not(:first-child) a {
+    margin-top: 1.5rem;
+  }
+
+  footer fieldset legend {
+    font-size: var(--text-smx);
+    color: var(--gray-4);
+  }
+
+  .developer-links {
+    width: 100%;
+  }
 }

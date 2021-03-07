@@ -61,6 +61,10 @@
 }
 
 @media (min-width: 768px) {
+  .contact {
+    max-width: 80rem;
+  }
+
   .contact .text-small {
     line-height: 2.7rem;
     font-size: var(--text-lg);
@@ -91,6 +95,5 @@
   }
   .contact .inner-content {
     max-width: 60rem;
-    /* padding-left: 22.8rem; */
   }
 }
